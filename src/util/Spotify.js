@@ -1,7 +1,7 @@
 // import { json } from "mocha/lib/reporters";
 // import SearchBar from "../Components/SearchBar/SearchBar";
 
-const clientId = '729d40a3446740e2bc53301e81c63248';
+const clientId = process.env.REACT_APP_API_KEY;
 const redirectURI = 'http://gabby-hill.surge.sh';
 let accessToken;
 
